@@ -1,0 +1,7 @@
+Project Helo World
+
+a=32
+b=45
+s=(a+b/2)
+
+print (s)
