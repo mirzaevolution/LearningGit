@@ -4,4 +4,8 @@ hello - 3
 hello - 4
 hello - 5
 hello - 6
+<<<<<<< Updated upstream
 Hello - 007 Autorizhed pembuatan Branch Development
+=======
+Hello - 007 Autorizhed pembuatan Branch Development coba2
+>>>>>>> Stashed changes
