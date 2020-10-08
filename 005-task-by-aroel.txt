@@ -1,0 +1,18 @@
+#Kita menggunakan len yaaaaa
+
+import collections 
+#Mendefinisikan penghitung kata dan karakter
+def counter_kata():
+    input_kata = input("Silahkan, anda masukan kata -->   ") 
+   #perintah input kata dimasukkan dan disimpan ke dalam list
+    list_kata = input_kata.split()
+   #didalam list kata dipilah atau di split
+    hitung_kata = len(list_kata)
+   #setelah dipilah lalu dihitung 
+if__hitung_kata[list_kata]__%s == 1:
+    hitung_kata=(list_kata)
+elif: print ("  Output -> Jumlah Kata:", hitung_kata)
+      print ("  Output-> Jumlah Karakter:", len(input_kata))
+
+counter_kata()
+
