@@ -1,0 +1,20 @@
+# Hai le..alhamdulillah ketemule cara paling singkat menurut mas arul he2
+
+import collections
+
+string=input('Silahkan masukkan kata---> ')
+kata=string.upper()
+
+krata=kata.split(' ')
+ambil=collections.Counter(krata).most_common()
+
+for katas in ambil:
+       print('Kalimat yang ditemukan: %s\t: Jumlah kata adalah: %d'%(katas[0],katas[1]))
+       break
+
+# Penjelasanya adalah: Mas arul pertama membuat list dari input" Silahkan masukkan kata--> 
+# setelah itu mas arul membuat list tersebut mas arul seragamkan dengan upper sehingga menjadi in case sensitive.....dengan variabel penampung namanya: kata
+# kemudian mas arul membuat penampung kata itu displit menjadi perkata dengan variabel: krata 
+# kemudian mas arul menggunakan salah satu collections yaitu Counter untuk menghitung kata yang sering muncul dalam variabel krata dengan nama variabel: ambil
+# kemudian membuat variabel baru untuk mengambil dari variabel ambil
+# cetak kalimat disesuaikan %s\t diambil dari jumlah string dari ambil dan %d jumlah nilai pada kata yang bernilai 0 yang menunjukkan yang paling banyak dicari dan 1 untuk memunculkan jumlah keseluruhan kata yang sama
